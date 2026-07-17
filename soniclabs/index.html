@@ -1,19 +1,208 @@
-<!DOCTYPE html><html lang="en" data-scrapbook-source="https://3000-itkf6w4dw92gvdnxn3yri.sandbox.webild.io/" data-scrapbook-create="20260717130544563"><head>
-    
-
-    
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    
-    
-    <link href="css2.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webild Components</title>
+    <meta
+      name="description"
+      content="SonicLabs builds resilient AI-ready data and integration systems for growing digital teams."
+    >
+    <link href="css2.css" rel="stylesheet">
+    <link href="site.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>SonicLabs — AI-ready digital infrastructure</title>
   </head>
   <body>
-    <div id="root"></div>
-    
-  
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container site-header__inner">
+          <a class="brand" href="./">
+            <span class="brand__mark">S1</span>
+            <span>SonicLabs</span>
+          </a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle menu" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links" data-nav-menu>
+              <a href="./" aria-current="page">Home</a>
+              <a href="about/">About</a>
+              <a href="products/">Products</a>
+              <a href="pricing/">Pricing</a>
+              <a href="#faq">FAQ</a>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-</body></html>
+      <main>
+        <section class="hero">
+          <div class="container hero__grid">
+            <div class="hero__copy">
+              <div class="eyebrow">Launch faster without losing control</div>
+              <h1>AI-ready infrastructure for teams that move at startup speed.</h1>
+              <p>
+                SonicLabs helps product, commerce, and operations teams connect data, automate delivery,
+                and keep every customer touchpoint consistent across the stack.
+              </p>
+              <div class="hero__actions">
+                <a class="button" href="products/">Explore products</a>
+                <a class="button-secondary" href="pricing/">View pricing</a>
+              </div>
+              <div class="hero__meta">
+                <a href="#sectors">Trusted operating model</a>
+                <a href="about/#team">Delivery-first team</a>
+                <a href="#faq">Fast answers</a>
+              </div>
+            </div>
+            <div class="panel hero-card">
+              <div class="hero-card__label">Deployment snapshot</div>
+              <div class="hero-card__value">99.95%</div>
+              <p>Platform uptime across managed workloads with proactive observability and rollback playbooks.</p>
+              <ul class="hero-card__list">
+                <li>Composable architecture for web, CRM, and data flows</li>
+                <li>Unified analytics layer for product and growth teams</li>
+                <li>Ongoing release support without vendor lock-in</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section anchor-offset" id="sectors">
+          <div class="container">
+            <div class="section-heading">
+              <div class="eyebrow">Core sectors</div>
+              <h2>Built for teams that need reliable execution across every channel.</h2>
+              <p class="section__intro">
+                We focus on practical systems that remove delivery friction for growth-stage businesses,
+                internal platforms, and customer-facing operations.
+              </p>
+            </div>
+            <div class="cards">
+              <article class="card">
+                <div class="card__tag">Commerce</div>
+                <h3>Storefront operations</h3>
+                <p>Inventory sync, checkout instrumentation, and campaign routing for multi-market teams.</p>
+              </article>
+              <article class="card">
+                <div class="card__tag">SaaS</div>
+                <h3>Product delivery</h3>
+                <p>Release pipelines, telemetry foundations, and lifecycle automation for digital products.</p>
+              </article>
+              <article class="card">
+                <div class="card__tag">Enterprise</div>
+                <h3>Internal systems</h3>
+                <p>Secure integrations between support, finance, CRM, and operational data environments.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-heading">
+              <div class="eyebrow">Why SonicLabs</div>
+              <h2>Measured outcomes instead of generic development capacity.</h2>
+            </div>
+            <div class="stats">
+              <article class="stat">
+                <div class="stat__value">6 weeks</div>
+                <p>Typical time to deliver a production-ready foundation with dashboards and onboarding support.</p>
+              </article>
+              <article class="stat">
+                <div class="stat__value">24/7</div>
+                <p>Coverage for critical workflows, alerting, and incident coordination after every release.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section anchor-offset" id="faq">
+          <div class="container">
+            <div class="section-heading">
+              <div class="eyebrow">FAQ</div>
+              <h2>Common questions from teams moving away from fragmented tooling.</h2>
+            </div>
+            <div class="faq">
+              <article class="faq-item is-open">
+                <button class="faq-question" type="button" aria-expanded="true" data-faq-question>
+                  <span>What does SonicLabs actually deliver?</span>
+                  <span class="faq-question__icon">+</span>
+                </button>
+                <div class="faq-answer" style="max-height: 240px;">
+                  <div class="faq-answer__inner">
+                    <p>
+                      We ship production-focused web foundations, integrations, analytics, and support workflows,
+                      then stay close through rollout and optimization.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" data-faq-question>
+                  <span>Can we start with one product area first?</span>
+                  <span class="faq-question__icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer__inner">
+                    <p>
+                      Yes. Many teams begin with a pilot around reporting, customer operations, or a single workflow,
+                      then expand after the initial launch proves value.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" data-faq-question>
+                  <span>How do you work with existing teams?</span>
+                  <span class="faq-question__icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer__inner">
+                    <p>
+                      We plug into the current roadmap, document operational handoff, and design for maintainability so internal teams can keep moving independently.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__inner">
+          <div class="footer-grid">
+            <div class="footer-card">
+              <div class="eyebrow">SonicLabs</div>
+              <h2 class="footer-title" data-footer-title data-full-title="Build digital systems that stay fast as your team scales." data-short-title="Build faster. Scale cleaner.">
+                Build digital systems that stay fast as your team scales.
+              </h2>
+            </div>
+            <div class="footer-card">
+              <h3>Navigate</h3>
+              <div class="footer-nav">
+                <a href="./">Home</a>
+                <a href="about/">About</a>
+                <a href="products/">Products</a>
+                <a href="pricing/">Pricing</a>
+              </div>
+            </div>
+            <div class="footer-card">
+              <h3>Focus</h3>
+              <p>Automation, integrations, telemetry, and delivery workflows that support growth without complexity overload.</p>
+            </div>
+          </div>
+          <div class="footer-meta">
+            <span>© <span data-year></span> SonicLabs. All rights reserved.</span>
+            <span>Local static navigation, no external sandbox dependencies.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="site.js"></script>
+  </body>
+</html>

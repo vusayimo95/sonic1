@@ -1,19 +1,143 @@
-<!DOCTYPE html><html lang="en" data-scrapbook-source="https://3000-itkf6w4dw92gvdnxn3yri.sandbox.webild.io/products" data-scrapbook-create="20260717130554047"><head>
-    
-
-    
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    
-    
-    <link href="css2.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webild Components</title>
+    <meta
+      name="description"
+      content="Explore SonicLabs products for digital operations, analytics, and workflow automation."
+    >
+    <link href="../css2.css" rel="stylesheet">
+    <link href="../site.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <title>SonicLabs Products</title>
   </head>
   <body>
-    <div id="root"></div>
-    
-  
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container site-header__inner">
+          <a class="brand" href="../">
+            <span class="brand__mark">S1</span>
+            <span>SonicLabs</span>
+          </a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle menu" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links" data-nav-menu>
+              <a href="../">Home</a>
+              <a href="../about/">About</a>
+              <a href="./" aria-current="page">Products</a>
+              <a href="../pricing/">Pricing</a>
+              <a href="#catalog">Catalog</a>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-</body></html>
+      <main>
+        <section class="hero">
+          <div class="container hero__grid">
+            <div class="hero__copy">
+              <div class="eyebrow">Products</div>
+              <h1>Focused solutions for customer operations, data visibility, and release speed.</h1>
+              <p>
+                SonicLabs packages recurring delivery needs into productized offers that still adapt to your stack,
+                workflows, and in-house tooling.
+              </p>
+              <div class="hero__actions">
+                <a class="button" href="../pricing/">Choose a plan</a>
+                <a class="button-secondary" href="../about/">Meet the team</a>
+              </div>
+            </div>
+            <div class="panel hero-card">
+              <div class="hero-card__label">Coverage</div>
+              <div class="hero-card__value">3 core tracks</div>
+              <p>Pick the capability you need now and expand when adjacent systems are ready to evolve.</p>
+              <ul class="hero-card__list">
+                <li>Workflow automation</li>
+                <li>Analytics foundations</li>
+                <li>Release and support operations</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section anchor-offset" id="catalog">
+          <div class="container">
+            <div class="section-heading">
+              <div class="eyebrow">Catalog</div>
+              <h2>Choose the operational capability your team needs most right now.</h2>
+            </div>
+            <div class="cards">
+              <article class="card">
+                <div class="card__tag">FlowOps</div>
+                <h3>Workflow automation</h3>
+                <p>Connect CRM, support, finance, and fulfillment tooling with reliable trigger-based processes.</p>
+                <ul>
+                  <li>Service orchestration</li>
+                  <li>Approval routing</li>
+                  <li>Escalation logic</li>
+                </ul>
+              </article>
+              <article class="card">
+                <div class="card__tag">SignalStack</div>
+                <h3>Analytics foundation</h3>
+                <p>Build one clean source of truth for operational reporting, growth experiments, and executive views.</p>
+                <ul>
+                  <li>Data pipelines</li>
+                  <li>Event strategy</li>
+                  <li>Dashboard delivery</li>
+                </ul>
+              </article>
+              <article class="card">
+                <div class="card__tag">LaunchDesk</div>
+                <h3>Release support</h3>
+                <p>Stabilize releases with monitoring, documentation, and incident playbooks around critical journeys.</p>
+                <ul>
+                  <li>Observability setup</li>
+                  <li>Runbooks</li>
+                  <li>Post-release tuning</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__inner">
+          <div class="footer-grid">
+            <div class="footer-card">
+              <div class="eyebrow">SonicLabs</div>
+              <h2 class="footer-title" data-footer-title data-full-title="Productized capabilities without template-level compromises." data-short-title="Capabilities that fit.">
+                Productized capabilities without template-level compromises.
+              </h2>
+            </div>
+            <div class="footer-card">
+              <h3>Navigate</h3>
+              <div class="footer-nav">
+                <a href="../">Home</a>
+                <a href="../about/">About</a>
+                <a href="./">Products</a>
+                <a href="../pricing/">Pricing</a>
+              </div>
+            </div>
+            <div class="footer-card">
+              <h3>Next step</h3>
+              <p>Start with one operational bottleneck, then expand to adjacent systems once the first release is stable.</p>
+            </div>
+          </div>
+          <div class="footer-meta">
+            <span>© <span data-year></span> SonicLabs. All rights reserved.</span>
+            <span>Local catalog navigation for every static page.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../site.js"></script>
+  </body>
+</html>
